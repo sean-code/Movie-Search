@@ -1,0 +1,19 @@
+
+*{
+    margin: 0;
+    padding:0;
+    background-color: #1B3050;
+}
+
+.contents h1{
+    color: orange;   
+}
+
+.contents sub{
+    color: #8EFCBA;
+    font-size: small;
+}
+
+.contents p{
+    color: #fff;
+}
