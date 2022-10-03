@@ -1,9 +1,10 @@
 import './App.css';
+import Home from './landing-page/Home';
 
 function App() {
   return (
     <div>
-      Movie Search+
+      <Home/>
     </div>
   );
 }
