@@ -7,6 +7,8 @@
 
 .contents h1{
     color: orange;   
+    margin-top: 5%;
+    margin-left: 10%;
 }
 
 .contents sub{
@@ -14,6 +16,42 @@
     font-size: small;
 }
 
+.main img{
+    height: 500px;
+    width: 450px;
+    border-radius: 70%;
+    margin-top: 5%;
+    margin-left: 50%;
+}
 .contents p{
     color: #fff;
+    margin-left: 10%;
 }
+
+/* Animation */
+
+#rotation img{
+    animation: rotation 1s;
+}
+
+@keyframes rotation{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    
+}
+
+.linear {
+    animation-timing-function: linear;
+  }
+
+  .infinite {
+    animation-iteration-count: infinite;
+  }
+
+  #rotate img {
+    animation: rotation 10s linear infinite;
+  }
