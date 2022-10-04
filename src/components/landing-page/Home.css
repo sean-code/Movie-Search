@@ -7,7 +7,7 @@
 
 .contents h1{
     color: orange;   
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 10%;
 }
 
@@ -26,6 +26,7 @@
 .contents p{
     color: #fff;
     margin-left: 10%;
+    font-size: larger;
 }
 
 /* Animation */
