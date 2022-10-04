@@ -7,7 +7,6 @@
     margin-left: 20px;
     margin-right: 60px;
     margin-top: 15px;
-    
 }
 nav.main-navigation ul.nav-list {
     margin: 0;
@@ -23,9 +22,9 @@ nav.main-navigation ul.nav-list {
 
 @keyframes FadeIn {
         0% {
-        opacity: 0;
-        -webkit-transition-duration: 0.8s;
- transition-duration: 0.8s;
+    opacity: 0;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
     -webkit-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     transform: translateY(-10px);
@@ -73,18 +72,15 @@ nav.main-navigation ul.nav-list {
         from {
     transform: translate3d(0, 40px, 0)
     }
-
         to {
     transform: translate3d(0, 0, 0);
     opacity: 1
     }
 }
-
     @-webkit-keyframes fadeInUp {
         from {
     transform: translate3d(0, 40px, 0)
     }
-
         to {
     transform: translate3d(0, 0, 0);
     opacity: 1
