@@ -2,6 +2,8 @@ import React, {useState, useEffect} from "react";
 import './Search.css';
 import MovieList from "./MovieList";
 import MovieListHeading from "./MovieListHeading";
+import SearchBox from "./SearchBox";
+
 
 function Search(){
     const[movies, setMovies] = useState([]);
@@ -24,8 +26,10 @@ function Search(){
     return(
         <div className="container-fluid movie-app">
             <div className="row">
+                <SearchBox searchMovie={searchMovie} setSearchMovie={setSearchMovie}/>
+            </div>
+            <div className="row">
                 <MovieListHeading heading='Search Result'/>
-
             </div>
             <div className="row">
                 <MovieList movies={movies}/>
