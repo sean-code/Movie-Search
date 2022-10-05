@@ -130,3 +130,20 @@
 		transform: rotateY(360deg);
 	}
 }
+
+
+/* Page content */
+
+.info{
+	margin-top: 20%;
+	margin-left: 20%;
+}
+
+.info h2{
+	color: orange;
+}
+
+.info sub{
+	color: #8EFCBA;
+	font-size: small;
+}

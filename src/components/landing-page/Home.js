@@ -16,6 +16,9 @@ function Home(){
 					<figure className="shadow"><img src="https://c4.wallpaperflare.com/wallpaper/884/965/115/movies-flash-superman-wonder-woman-wallpaper-preview.jpg"/></figure>
 		        </div>
 	        </div>
+			<div className='info'>
+				<h2>Movie Search+<sub>developed by Sean</sub></h2>
+			</div>
         </section>
     )
 }
