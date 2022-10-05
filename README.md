@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Movie Search+ 
+##### --The Movie Search Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Author
+- [John Nganga](https://github.com/sean-code)
 
-## Available Scripts
+## Project Description
+This project is the development of a website application that provides you with the ability to search all genres of music.
+The idea is to provide entertainment to the user. Furthermore, a user is able to compile a list of favorite movies. All of this among other amazing UI features are meant for entertainment. It is also Advert free.
+The Project was done for the purpose of learning and to grasp hands-on skills in website application development using React JS, and as well interaction with a public application programming interface as part of my Software Engineering journey.
 
-In the project directory, you can run:
 
-### `npm start`
+#### Landing Page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technology Used
+This project was accomplished by the use of a public API provided by OMDB™ .
 
-### `npm test`
+- `Movie Search+` application was built using React JS technology.
+This work has been deployed on both GitHub and Heroku and can thus be viewed using this live link: https://sean-code.github.io/...
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
++
+## Project Setup Instructions
+To start using this project use the following commands:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- `git clone ..`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `cd movie-search-app`
+- `atom .` (If Atom is your preferred text editor)
+- `code .` (If Visual Studio Code is your preferred text editor)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License Information
+MIT License
+ⒸMovie Search+, 2022.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Permission is therefore granted, free of charge to anyone obtaining a duplicate
+of this software and associated documentation files, to deal in the Software without restriction, including without limitation the rights to use, merge, publish, distribute and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+THE SOFTWARE IS PROVIDED "AS IT IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. UNDER NO EVENT SHALL THE
+AUTHOR OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGE OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT OR IN RELATION TO THE SOFTWARE.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# ENJOY YOURSELF AND HAPPY CODING
