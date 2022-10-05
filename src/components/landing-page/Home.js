@@ -2,7 +2,6 @@ import './Home.css'
 
 function Home(){
     return(
-
         <section id="slideshow">
 			<div className="entire-content">
 				<div className="content-carrousel">
