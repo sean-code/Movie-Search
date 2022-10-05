@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import './Search.css';
 
 import MovieList from "./MovieList";
@@ -44,12 +44,12 @@ function Search(){
     ]);
 
     const getMovieRequest = async () =>{
-        const url = 'http://www.omdbapi.com/?s=Woman King&apikey=6f97e522'
+        const url = 'http://www.omdbapi.com/?s=Batman&apikey=6f97e522';
 
-        const response = await fetch(url);
-        const responseJson = await response.json();
-        
-    }
+
+    useEffect(()=> {
+        getMovieRequest()
+    }, []);
 
     return(
         <div className="container-fluid movie-app">
