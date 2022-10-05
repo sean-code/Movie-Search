@@ -3,12 +3,45 @@
     padding: 0;
 }
 
-/* For MovieList */
+/* MovieListHeading */
+.row{
+    color: #8EFCBA;
+}
+/* For MovieList UNDER SEARCH.JS*/
 
-/* .movie-app > .row{
+.movie-app > .row{
     overflow: auto;
     flex-wrap: nowrap;
-} */
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transition: transform 0.2s;
+    margin-bottom: 10%;
+}
+
+.image-container:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.image-container:hover .overlay{
+    opacity: 1;
+}
+
+.overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    transition: 0.5s ease;
+    opacity: 0;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+
+}
 
 
 /* For Search Box */
@@ -20,7 +53,7 @@
     background-color:#ee8e44;
     padding:10px;
     width:678px;
-    margin:100px auto;
+    margin:50px auto;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
@@ -79,7 +112,4 @@ button[type="submit"]{
     height:40px;
     color: orange;
     font-size: large;
-}
-input[type="search"]:focus{
-    outline: 7px;;
 }

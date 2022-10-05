@@ -10,7 +10,6 @@ const SearchBox = (props) =>{
                     onChange={(event)=> props.setSearchMovie(event.target.value)}
                     placeholder="Type in your search..."                         
                 />
-                <button type="submit" value="search">&nbsp;Submit</button>
             </form>
         </div>
     )
