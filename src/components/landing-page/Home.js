@@ -2,16 +2,22 @@ import './Home.css'
 
 function Home(){
     return(
-        <div className='main' id='rotate'>
-            <img src='https://images.unsplash.com/photo-1616530940355-351fabd9524b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW92aWUlMjBwb3N0ZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60' alt='img'/>
-            <div className='contents'>
-                    <h1>Movie Search+<sub>developed by Sean</sub></h1>
-                <p>
-                    Catch The Latest Movies In High Quality. 
-                    <br />Plus With No ADS! Enjoy!!<br /> 
-                </p>
-            </div>
-        </div>
+
+        <section id="slideshow">
+			<div className="entire-content">
+				<div className="content-carrousel">
+					<figure className="shadow"><img src="https://dunenewsnet.com/wp-content/uploads/2021/08/Dune-Movie-Official-Poster-banner-feature.jpg"/></figure>
+					<figure className="shadow"><img src="https://c4.wallpaperflare.com/wallpaper/117/891/681/robert-pattinson-the-batman-2021-movies-artwork-batman-hd-wallpaper-preview.jpg"/></figure>
+					<figure className="shadow"><img src="https://cdn.cinematerial.com/p/297x/2q1c06yg/the-woman-king-movie-poster-md.jpg?v=1661884183"/></figure>
+					<figure className="shadow"><img src="https://c4.wallpaperflare.com/wallpaper/978/259/719/despicable-me-assassin-s-creed-crossover-video-games-wallpaper-preview.jpg"/></figure>
+					<figure className="shadow"><img src="https://c4.wallpaperflare.com/wallpaper/649/794/360/the-avengers-avengers-endgame-avengers-endgame-captain-america-iron-man-hd-wallpaper-preview.jpg"/></figure>
+					<figure className="shadow"><img src="https://c4.wallpaperflare.com/wallpaper/763/710/546/spiderman-no-way-home-spiderverse-superhero-movies-digital-hd-wallpaper-preview.jpg"/></figure>
+					<figure className="shadow"><img src="https://c4.wallpaperflare.com/wallpaper/20/777/196/dinosaur-logo-logo-jurassic-world-wallpaper-preview.jpg"/></figure>
+					<figure className="shadow"><img src="https://c4.wallpaperflare.com/wallpaper/950/219/788/tv-show-the-walking-dead-andrew-lincoln-carl-grimes-wallpaper-preview.jpg"/></figure>
+					<figure className="shadow"><img src="https://c4.wallpaperflare.com/wallpaper/884/965/115/movies-flash-superman-wonder-woman-wallpaper-preview.jpg"/></figure>
+		        </div>
+	        </div>
+        </section>
     )
 }
 
