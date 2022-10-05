@@ -43,10 +43,16 @@ function Search(){
         }
     ]);
 
-    const getMovieRequest = async () =>{
+    const getMovieRequest = async() =>{
         const url = 'http://www.omdbapi.com/?s=Batman&apikey=6f97e522';
 
+        const response = await fetch(url);
+        const responseJson = await response.json();
 
+        // console.log(responseJson);
+        setMovies(responseJson.Search);
+        
+    }
     useEffect(()=> {
         getMovieRequest()
     }, []);
