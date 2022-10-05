@@ -41,7 +41,16 @@ function Search(){
             "Type": "movie",
             "Poster": "https://m.media-amazon.com/images/M/MV5BY2I4MDIwYWUtOWMxNC00ZTIzLWE3OGYtOWUyMmIwZGE2NjU4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg"
         }
-    ])
+    ]);
+
+    const getMovieRequest = async () =>{
+        const url = 'http://www.omdbapi.com/?s=Woman King&apikey=6f97e522'
+
+        const response = await fetch(url);
+        const responseJson = await response.json();
+        
+    }
+
     return(
         <div className="container-fluid movie-app">
             <div className="row">
