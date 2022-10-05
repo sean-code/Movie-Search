@@ -1,4 +1,4 @@
-
+import './Search.css'
 
 function MovieListHeading (props) {
     return(
