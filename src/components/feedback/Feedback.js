@@ -11,12 +11,19 @@ function Feedback(){
     })
 
     function handle(event){
-        
+        const newdata = {...data}
+        newdata[event.target.id] = event.target.value
+        setData(newdata)
+        // console.log(newdata)
+    }
+
+    const submit = (event)=>{
+        event.preventDefault();
     }
 
     return(
     <div className="container"> 
-        <form id="contact" action="" method="post">
+        <form id="contact" onSubmit={(event)=> submit(event)}>
             <h3>Leave Me Your Feedback</h3>
         <fieldset>
             <input onChange ={(event)=>handle(event)} id="name" value={data.name} placeholder="Your name" type="text" tabindex="1" required autofocus />
