@@ -14,9 +14,6 @@ function Navbar(){
                         <NavLink to='/search' className="nav-link">Search</NavLink>
                     </li>
                     <li className="nav-list-item">
-                        <NavLink to='/about' className="nav-link">About</NavLink>
-                    </li>
-                    <li className="nav-list-item">
                         <NavLink to='/feedback' className="nav-link">Feedback</NavLink>
                     </li>
                     <li className="nav-list-item">
