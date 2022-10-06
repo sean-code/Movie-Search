@@ -9,11 +9,13 @@ This project was the development of a website application that provides a user w
 The idea is to provide entertainment to the user. Furthermore, a user is able to compile a list of favorite movies. All of this among other amazing UI features are meant for entertainment.  The application is also Advert free.
 The Project was done for the purpose of learning and to grasp hands-on skills in website application development using React JS, and as well interaction with a public application programming interface as part of my Software Engineering journey.
 
+### Signing In
+
+![SignIn](/img/SignIn.png)
 
 #### Landing Page
 ![HomePage](/img/Landing-page.png)
 
-![SignIn](/img/SignIn.png)
 
 
 ## Technology Used
@@ -26,7 +28,7 @@ Also a custom made API: db.json was created to handle the backend for the feedba
 - `Movie Search+` application was built using React JS technology, with the intermingling of JSX, custom CSS and Bootstrap.
 This work has been deployed on both GitHub and Netlify and can be viewed using this live link: https://sean-code.github.io/movie-search-/
 
-
+### Search Result
 ![SearchResult](/img/Batman-search.png)
 
 +
@@ -55,4 +57,4 @@ IMPLIED. UNDER NO EVENT SHALL THE
 AUTHOR OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGE OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT OR IN RELATION TO THE SOFTWARE.
 
-# ENJOY YOURSELF AND HAPPY CODING
+## ENJOY YOURSELF AND HAPPY CODING
