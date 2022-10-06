@@ -26,7 +26,7 @@ Also a custom made API: db.json was created to handle the backend for the feedba
 ![Feedback](/img/Feedback-endpoint.png)
 
 - `Movie Search+` application was built using React JS technology, with the intermingling of JSX, custom CSS and Bootstrap.
-This work has been deployed on both GitHub and Netlify and can be viewed using this live link: https://sean-code.github.io/movie-search-/
+This work has been deployed on both GitHub and Netlify and can be viewed using this live link: https://sean-code.github.io/Movie-Search-/
 
 ### Search Result
 ![SearchResult](/img/Batman-search.png)
