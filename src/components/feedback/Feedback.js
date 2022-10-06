@@ -4,7 +4,7 @@ import './Feedback.css';
 import axios from 'axios';
 
 function Feedback(){
-    const url = ""
+    const url = "https://gentle-coast-43368.herokuapp.com/feedback"
     const[data, setData] = useState({
         name: "",
         email: "",
