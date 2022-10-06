@@ -18,6 +18,9 @@ function Home(){
 	        </div>
 			<div className='info'>
 				<h2>Movie Search+<sub>developed by Sean</sub></h2>
+				<p>
+					Go to Search to Get Started
+				</p>
 			</div>
         </section>
     )
