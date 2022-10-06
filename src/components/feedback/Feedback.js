@@ -1,5 +1,7 @@
+import { Axios } from 'axios';
 import React, {useState} from 'react';
 import './Feedback.css';
+import axios from 'axios';
 
 function Feedback(){
     const url = ""
@@ -14,11 +16,20 @@ function Feedback(){
         const newdata = {...data}
         newdata[event.target.id] = event.target.value
         setData(newdata)
-        // console.log(newdata)
+        console.log(newdata)
     }
 
     const submit = (event)=>{
         event.preventDefault();
+        axios.post(url, {
+            name: data.name,
+            email: data.email,
+            phonenumber: data.phonenumber,
+            message: data.message
+        })
+        .then(response=>{
+            console.log(response.data)
+        })
     }
 
     return(
