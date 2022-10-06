@@ -5,32 +5,43 @@
 - [John Nganga](https://github.com/sean-code)
 
 ## Project Description
-This project is the development of a website application that provides you with the ability to search all genres of music.
-The idea is to provide entertainment to the user. Furthermore, a user is able to compile a list of favorite movies. All of this among other amazing UI features are meant for entertainment. It is also Advert free.
+This project was the development of a website application that provides a user with the ability to search all categories of movies.
+The idea is to provide entertainment to the user. Furthermore, a user is able to compile a list of favorite movies. All of this among other amazing UI features are meant for entertainment.  The application is also Advert free.
 The Project was done for the purpose of learning and to grasp hands-on skills in website application development using React JS, and as well interaction with a public application programming interface as part of my Software Engineering journey.
 
 
 #### Landing Page
+![HomePage](/img/Landing-page.png)
+
+![SignIn](/img/SignIn.png)
 
 
 ## Technology Used
-This project was accomplished by the use of a public API provided by OMDB™ .
+This project was accomplished by the use of an API provided by OMDb™ . It requires me to use an Authentication key and therefore I cannot share it here. 
+Also a custom made API: db.json was created to handle the backend for the feedback form. As shown below is a feedback being submitted on the form and how it appears on the backend.
+![Feedback](/img/JackharlowFeedbackForm.png)
 
-- `Movie Search+` application was built using React JS technology.
-This work has been deployed on both GitHub and Heroku and can thus be viewed using this live link: https://sean-code.github.io/...
+![Feedback](/img/Feedback-endpoint.png)
 
+- `Movie Search+` application was built using React JS technology, with the intermingling of JSX, custom CSS and Bootstrap.
+This work has been deployed on both GitHub and Netlify and can be viewed using this live link: https://sean-code.github.io/movie-search-/
+
+
+![SearchResult](/img/Batman-search.png)
 
 +
 ## Project Setup Instructions
 To start using this project use the following commands:
 
-- `git clone ..`
+- `git clone git@github.com:sean-code/Movie-Search-.git` -- for SSH link.
+- Or `git clone https://github.com/sean-code/Movie-Search-.git` for the HTTPS link
 
 - `cd movie-search-app`
 - `atom .` (If Atom is your preferred text editor)
 - `code .` (If Visual Studio Code is your preferred text editor)
 
 
+![ContactMe](/img/ContactMe.png)
 
 ## License Information
 MIT License
