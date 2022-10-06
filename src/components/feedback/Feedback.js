@@ -1,6 +1,15 @@
-import './Feedback.css'
+import React, {useState} from 'react';
+import './Feedback.css';
 
 function Feedback(){
+    const url = ""
+    const[data, setData] = useState({
+        name: "",
+        email: "",
+        phonenumber: "",
+        message: ""
+    })
+
     return(
     <div className="container"> 
         <form id="contact" action="" method="post">
