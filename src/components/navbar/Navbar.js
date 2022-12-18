@@ -8,7 +8,7 @@ function Navbar(){
             <h1 className='logo'>Movie Search+<sub>developed by Sean</sub></h1>
             <ul className="nav-list">
                     <li className="nav-list-item">
-                        <NavLink to='/' className="nav-link">Home</NavLink>
+                        <NavLink to='/home' className="nav-link">Home</NavLink>
                     </li>
                     <li className="nav-list-item">
                         <NavLink to='/search' className="nav-link">Search</NavLink>

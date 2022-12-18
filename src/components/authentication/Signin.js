@@ -7,7 +7,7 @@ function Signin(){
 
 function handleSubmit(event){
     event.preventDefault();
-    if(userName.length == 0 || thePassword == 0){
+    if(userName.length === 0 || thePassword === 0){
         setError(true)
     }
     if (userName&&thePassword)
