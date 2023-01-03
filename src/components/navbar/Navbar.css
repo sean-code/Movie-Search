@@ -117,3 +117,48 @@ nav.main-navigation ul.nav-list {
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
 }
+
+
+
+
+@media (min-width: 200px) and (max-width: 300px){
+    .logo{
+        font-size: medium;
+    }
+
+    .logo sub{
+        font-size: 8px;
+    }
+
+    .nav-list-item{
+        font-weight: 800;
+        display: inline;
+        line-height: 10px;
+        margin-left: 15px;
+        margin-right: 60px;
+        margin-top: 15px;
+    }
+
+}
+
+@media (min-width: 301px) and (max-width: 500px){
+
+    .logo{
+        font-size: 25px;
+    }
+
+    .logo sub{
+        font-size: 15px;
+    }  
+    
+    .nav-list-item{
+        font-weight: 800;
+        display: inline;
+        line-height: 10px;
+        margin-left: 15px;
+        margin-right: 0px;
+        margin-top: 15px;
+    }
+    
+
+}

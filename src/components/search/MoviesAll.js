@@ -6,7 +6,7 @@ import Search from './Search';
 
 
 // const MOVIE_API_URL = "https://www.omdbapi.com/?s=man&apikey=4a3b711b";
- const MOVIE_API_URL = "http://www.omdbapi.com/?s=war&apikey=4a3b711b";
+ const MOVIE_API_URL = "http://www.omdbapi.com/?s=war&apikey=6f97e522";
 function MoviesAll() {
   const [loading, setLoading] = useState(true);
   const [movies, setMovies] = useState([]);
