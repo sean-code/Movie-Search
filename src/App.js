@@ -6,9 +6,9 @@ import {
   Routes, 
   Route
 } from 'react-router-dom';
-import Search from './components/search/Search';
 import Feedback from './components/feedback/Feedback';
 import Contact from './components/contact/Contact';
+import MoviesAll from './components/search/MoviesAll';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/search' element= {<Search />} />
+        <Route path='/search' element= {<MoviesAll />} />
         <Route path='/feedback' element={<Feedback />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>

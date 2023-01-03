@@ -3,87 +3,81 @@
     padding: 0;
 }
 
-/* MovieListHeading */
-.row{
-    color: #8EFCBA;
-}
-/* For MovieList UNDER SEARCH.JS*/
-
-.movie-app > .row{
-    overflow: auto;
-    flex-wrap: nowrap;
-}
-
-.image-container{
+.movies {
     display: flex;
-    justify-content: center;
-    position: relative;
-    transition: transform 0.2s;
-    margin-bottom: 10%;
-}
-
-.image-container:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
-.image-container:hover .overlay{
-    opacity: 1;
-}
-
-.overlay{
-    position: absolute;
-    background: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    transition: 0.5s ease;
-    opacity: 0;
-    bottom: 0;
-    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .App-header h2 {
+    color: #8EFCBA;
+    margin-top: 2%;
+  }
+  
+  .add-movies {
     text-align: center;
+  }
+  
+  .add-movies button {
+    font-size: 16px;
+    padding: 8px;
+    margin: 0 10px 30px 10px;
+  }
+  
+  .movie {
+    padding: 5px 25px 10px 25px;
+    max-width: 25%;
+    color: orange;
+  }
+  
+  .errorMessage {
+    margin: auto;
+    font-weight: bold;
+    color: rgb(161, 15, 15);
+  }
+  
+  
+  
+  .search {
+    color: #8EFCBA;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    
+  }
+  
+  
+  input[type="submit"] {
+    width:95px;
+    height:40px;
+    color: #8EFCBA;
+    font-size: large;
+    font-weight: 800;
+    border: none;
+    border-radius: 10%;
+    background-color: #794e15;
+  }
+  
+  
+  input[type="submit"]:hover {
+    background-color: #282c34;
+    color: antiquewhite;
+  }
+  
 
-}
-
-
-/* For Search Box */
-.search-box{
-    margin-left: 40%;
-}
-
-.searchbox{
-    background-color:#ee8e44;
-    padding:10px;
-    width:678px;
-    margin:50px auto;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-    border-radius:6px;
-    -webkit-box-shadow:
-        0 2px 4px 0 rgba(72, 72, 72, 0.83),
-        0 10px 15px 0 rgba(126, 126, 126, 0.12),
-        0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset,
-        0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
-    -moz-box-shadow: 
-        0 2px 4px 0 rgba(72, 72, 72, 0.83),
-        0 10px 15px 0 rgba(126, 126, 126, 0.12),
-        0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset, 
-        0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
-    box-shadow: 
-        0 2px 4px 0 rgba(72, 72, 72, 0.83),
-        0 10px 15px 0 rgba(126, 126, 126, 0.12),
-        0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset, 
-        0 2px 4px 2px rgba(238, 222, 222, 0.83) inset;
-}
-input[type="search"]{
+  input[type="text"]{
+    min-width: 30%;
     width:550px;
     height:45px;
     padding-left:15px;
-    border-radius:6px;
+    border-radius:12px;
     border:none;
-    color:#939393;
+    color:#8EFCBA;
     font-weight:600;
     font-size: larger;
-    background-color:#fffbf8;
+    background-color: orange;
     -webkit-box-shadow:
         0 -2px 2px 0 rgba(199, 199, 199, 0.55),
         0 1px 1px 0 #fff,
@@ -107,9 +101,36 @@ input[type="search"]{
         0 15px 15px 0 rgba(41, 41, 41, 0.09) inset;
 }
 
-button[type="submit"]{
-    width:90px;
-    height:40px;
-    color: orange;
-    font-size: large;
-}
+
+/* Movie Posters */
+
+
+
+
+
+  
+  @media screen and (min-width: 694px) and (max-width: 915px) {
+    .movie {
+      max-width: 33%;
+    }
+  }
+  
+  @media screen and (min-width: 652px) and (max-width: 693px) {
+    .movie {
+      max-width: 50%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 651px) {
+    .movie {
+      max-width: 100%;
+      margin: auto;
+    }
+  }
+  
+  
+  
+  
+  
+  

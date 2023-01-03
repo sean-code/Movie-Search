@@ -1,42 +1,39 @@
-import React, {useState, useEffect} from "react";
+import React, { useState } from 'react'
 import './Search.css';
-import MovieList from "./MovieList";
-import MovieListHeading from "./MovieListHeading";
-import SearchBox from "./SearchBox";
 
+function Search(props) {
+    const [searchValue, setSearchValue] = useState('');
 
-function Search(){
-    const[movies, setMovies] = useState([]);
-    const [searchMovie, setSearchMovie] = useState('');
-
-    const getMovieRequest = async() =>{
-        // const url = `http://www.omdbapi.com/?s=${searchMovie}&apikey=6f97e522`;
-        const url = `http://www.omdbapi.com/?s=${searchMovie}Water&apikey=6f97e522`;
-        const response = await fetch(url);
-        const responseJson = await response.json();
-
-        if (responseJson.Search){
-            setMovies(responseJson.Search);
-        }
-        
+    const handleSearchInputChanges = (e) => {
+        setSearchValue(e.target.value);
     }
-    useEffect(()=> {
-        getMovieRequest();
-    }, [searchMovie]);
 
-    return(
-        <div className="container-fluid movie-app">
-            <div className="row">
-                <SearchBox searchMovie={searchMovie} setSearchMovie={setSearchMovie}/>
-            </div>
-            <div className="row">
-                <MovieListHeading heading='Search Result'/>
-            </div>
-            <div className="row">
-                <MovieList movies={movies}/>
-            </div>
-        </div>
+    const callSearchFunction = (e) => {
+        e.preventDefault();
+        props.search(searchValue);
+        resetInputField();
+    }
+
+    const resetInputField = () => {
+        setSearchValue('')
+    }
+
+    return (
+        <form className="search">
+            <input
+                value={searchValue}
+                onChange={handleSearchInputChanges}
+                type="text"
+            />
+            <input onClick={callSearchFunction} type="submit" value="SEARCH" />
+        </form>
     )
 }
 
-export default Search;
+export default Search
+
+
+
+
+
+// const url = `http://www.omdbapi.com/?s=${searchMovie}&apikey=6f97e522`;
