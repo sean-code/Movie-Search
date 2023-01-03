@@ -16,9 +16,6 @@ function Navbar(){
                     <li className="nav-list-item">
                         <NavLink to='/feedback' className="nav-link">Feedback</NavLink>
                     </li>
-                    <li className="nav-list-item">
-                        <NavLink to='/contact' className="nav-link">Contact</NavLink>
-                    </li>
                 </ul>
         </div>
         </nav>

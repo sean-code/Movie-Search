@@ -7,7 +7,6 @@ import {
   Route
 } from 'react-router-dom';
 import Feedback from './components/feedback/Feedback';
-import Contact from './components/contact/Contact';
 import MoviesAll from './components/search/MoviesAll';
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/search' element= {<MoviesAll />} />
         <Route path='/feedback' element={<Feedback />} />
-        <Route path='/contact' element={<Contact />} />
       </Routes>
     </Router>
     </div>
