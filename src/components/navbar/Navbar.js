@@ -19,9 +19,6 @@ function Navbar(){
                     <li className="nav-list-item">
                         <NavLink to='/contact' className="nav-link">Contact</NavLink>
                     </li>
-                    <li className="nav-list-item">
-                        <NavLink to='/authentication' className="nav-link">Sign In</NavLink>
-                    </li>
                 </ul>
         </div>
         </nav>

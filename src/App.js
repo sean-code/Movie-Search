@@ -9,7 +9,6 @@ import {
 import Search from './components/search/Search';
 import Feedback from './components/feedback/Feedback';
 import Contact from './components/contact/Contact';
-import Signin from './components/authentication/Signin';
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
         <Route path='/search' element= {<Search />} />
         <Route path='/feedback' element={<Feedback />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/authentication' element={<Signin />} />
       </Routes>
     </Router>
     </div>
